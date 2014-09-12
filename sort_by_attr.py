@@ -1,3 +1,4 @@
+from django.utils.datastructures import SortedDict
 
     ### START SORT BY ATTR ####
 def sort_by_attr(sort_object, key_name, direction=1):
