@@ -1,6 +1,7 @@
 import inspect
 from django.utils.encoding import smart_str
 import re
+from django.db import connection
 
 def prn(value, level=0):
 
